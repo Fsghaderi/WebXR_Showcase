@@ -10,8 +10,8 @@ function App() {
   const [itemSelectedIndex, setItemSelectedIndex] = useState(0);
   const [showSettings, setShowSettings] = useState(false);
   const [models, setModels] = useState([
-    "./component1.glb",
-    "./component2.glb",
+    "./Fort.glb",
+    "./Stumpville House.glb",
   ]);
   const [modelScaleFactor, setModelScaleFactor] = useState([1.0, 1.0]);
   const [draggedIndex, setDraggedIndex] = useState(null);
@@ -30,8 +30,8 @@ function App() {
 
   // BNP Component names
   const modelNames = [
-    "Component 1",
-    "Component 2"
+    "Fort",
+    "Stumpville House"
   ];
 
   const placeModel = useCallback((index, matrix) => {
