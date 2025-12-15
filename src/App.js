@@ -10,14 +10,10 @@ function App() {
   const [itemSelectedIndex, setItemSelectedIndex] = useState(0);
   const [showSettings, setShowSettings] = useState(false);
   const [models, setModels] = useState([
-    "./dylan_armchair_yolk_yellow.glb",
-    "./ivan_armchair_mineral_blue.glb",
-    "./marble_coffee_table.glb",
-    "./flippa_functional_coffee_table_w._storagewalnut.glb",
-    "./frame_armchairpetrol_velvet_with_gold_frame.glb",
-    "./elnaz_nesting_side_tables_brass__green_marble.glb",
+    "./component1.glb",
+    "./component2.glb",
   ]);
-  const [modelScaleFactor, setModelScaleFactor] = useState([0.01, 0.01, 0.005, 0.01, 0.01, 0.01]);
+  const [modelScaleFactor, setModelScaleFactor] = useState([1.0, 1.0]);
   const [draggedIndex, setDraggedIndex] = useState(null);
 
   // Three.js refs
@@ -32,14 +28,10 @@ function App() {
   const raycasterRef = useRef(new THREE.Raycaster());
   const mouseRef = useRef(new THREE.Vector2());
 
-  // Placeholder images for navbar (we'll use colored boxes as placeholders)
+  // BNP Component names
   const modelNames = [
-    "Dylan Armchair",
-    "Ivan Armchair",
-    "Marble Table",
-    "Flippa Table",
-    "Frame Armchair",
-    "Elnaz Tables"
+    "Component 1",
+    "Component 2"
   ];
 
   const placeModel = useCallback((index, matrix) => {
