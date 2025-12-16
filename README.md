@@ -2,6 +2,10 @@
 
 An augmented reality (AR) web application that allows users to visualize and place natural playground equipment in real-world environments using their mobile device's camera. This tool helps clients, designers, and educators preview how Bienenstock Natural Playgrounds components will look in their actual spaces before installation.
 
+## 🔗 Demo
+
+**[Try the Live Demo](https://fsghaderi.github.io/WebXR_Showcase/)** - Open on your mobile device for the AR experience!
+
 ## 🎯 About
 
 This AR experience leverages web technologies to bring natural playground design into the real world. Users can select from a variety of nature-inspired play structures and place them in their environment in real-time, helping to visualize playground layouts, assess spatial requirements, and make informed design decisions.
@@ -34,7 +38,7 @@ This project is built with:
 
 ## 📱 How to Use
 
-1. Open the demo link on your **mobile device** (iOS Safari or Android Chrome)
+1. Open the [demo link](https://fsghaderi.github.io/WebXR_Showcase/) on your **mobile device** (iOS Safari or Android Chrome)
 2. Tap the **"Enter AR"** button at the bottom of the screen
 3. Allow camera permissions when prompted
 4. Browse playground equipment in the bottom carousel
